@@ -1,0 +1,722 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABSTRACTALGORITHM_H_	framework/AbstractAlgorithm.h	/^#define ABSTRACTALGORITHM_H_$/;"	d
+AbstractAlgorithm	framework/AbstractAlgorithm.cpp	/^AbstractAlgorithm::AbstractAlgorithm($/;"	f	class:AbstractAlgorithm
+AbstractAlgorithm	framework/AbstractAlgorithm.cpp	/^AbstractAlgorithm::AbstractAlgorithm(AbstractAlgorithm &&other):$/;"	f	class:AbstractAlgorithm
+AbstractAlgorithm	framework/AbstractAlgorithm.h	/^class AbstractAlgorithm {$/;"	c
+AlgorithmNotFinishedError	framework/errors.h	/^            AlgorithmNotFinishedError(const std::string &msg):$/;"	f	class:errors::AlgorithmNotFinishedError
+AlgorithmNotFinishedError	framework/errors.h	/^    class AlgorithmNotFinishedError: public std::runtime_error {$/;"	c	namespace:errors
+Area	framework/Area.cpp	/^    Area::Area($/;"	f	class:geo::Area
+Area	framework/Area.cpp	/^    Area::Area():$/;"	f	class:geo::Area
+Area	framework/Area.h	/^    class Area$/;"	c	namespace:geo
+BASE_CMD_OPTS_H_	framework/program_options/BaseCmdOpts.h	/^#define BASE_CMD_OPTS_H_$/;"	d
+BOTTOM	framework/directions.h	/^        BOTTOM = 6,$/;"	m	class:directions::Direction
+BOTTOM_LEFT	framework/directions.h	/^        BOTTOM_LEFT = 5,$/;"	m	class:directions::Direction
+BOTTOM_RIGHT	framework/directions.h	/^        BOTTOM_RIGHT = 7$/;"	m	class:directions::Direction
+BaseCmdOpts	framework/program_options/BaseCmdOpts.cpp	/^BaseCmdOpts::BaseCmdOpts():$/;"	f	class:BaseCmdOpts
+BaseCmdOpts	framework/program_options/BaseCmdOpts.h	/^class BaseCmdOpts$/;"	c
+CARVING_ALGORITHM_H_	carving/CarvingAlgorithm.h	/^#define CARVING_ALGORITHM_H_$/;"	d
+CARVING_ALGORITHM_IMPL_H_	carving/CarvingAlgorithm_impl.h	/^#define CARVING_ALGORITHM_IMPL_H_$/;"	d
+CARVING_ENGINE_CPU_H	carving/CarvingEngineCPU.h	/^#define CARVING_ENGINE_CPU_H$/;"	d
+CARVING_ENGINE_H_	carving/CarvingEngine.h	/^#define CARVING_ENGINE_H_$/;"	d
+CARVING_HELP_CPU_H	carving/carving_help_CPU.h	/^#define CARVING_HELP_CPU_H$/;"	d
+CELLGRIDFRAME_H_	framework/CellGridFrame.h	/^#define CELLGRIDFRAME_H_$/;"	d
+CELLGRID_H_	framework/CellGrid.h	/^#define CELLGRID_H_$/;"	d
+CMD_ERROR_H_	framework/program_options/CmdError.h	/^#define CMD_ERROR_H_$/;"	d
+CMD_OPTS_H_	program_carving/ProgramCmdOpts.h	/^#define CMD_OPTS_H_$/;"	d
+COORDINATES_H_	framework/coordinates.h	/^#define COORDINATES_H_$/;"	d
+CRS	framework/Area.cpp	/^    ReferenceSystem Area::CRS() const$/;"	f	class:geo::Area
+CRS	framework/Area.cpp	/^    void Area::CRS(const ReferenceSystem &rs)$/;"	f	class:geo::Area
+CRS	framework/io/GDALRasterCollectionDataSource.cpp	/^    geo::ReferenceSystem GDALRasterCollectionDataSource::CRS() const$/;"	f	class:io::GDALRasterCollectionDataSource
+CRS	framework/io/GDALRasterDataSource.cpp	/^    geo::ReferenceSystem GDALRasterDataSource::CRS() const$/;"	f	class:io::GDALRasterDataSource
+CULVERT_H_	carving/Culvert.h	/^#define CULVERT_H_$/;"	d
+CarvingAlgorithm	carving/CarvingAlgorithm.h	/^class CarvingAlgorithm: public AbstractAlgorithm$/;"	c
+CarvingAlgorithm	carving/CarvingAlgorithm_impl.h	/^CarvingAlgorithm<T, U, V, C>::CarvingAlgorithm():$/;"	f	class:CarvingAlgorithm
+CarvingEngine	carving/CarvingEngine.h	/^class CarvingEngine$/;"	c
+CarvingEngineCPU	carving/CarvingEngineCPU.h	/^class CarvingEngineCPU:$/;"	c
+CellGrid	framework/CellGrid.h	/^CellGrid<T, coord_type>::CellGrid($/;"	f	class:CellGrid
+CellGrid	framework/CellGrid.h	/^class CellGrid: public CellGridFrame {$/;"	c
+CellGridCreationError	framework/errors.h	/^            CellGridCreationError(const std::string &s):$/;"	f	class:errors::CellGridCreationError
+CellGridCreationError	framework/errors.h	/^    class CellGridCreationError: public std::runtime_error {$/;"	c	namespace:errors
+CellGridFrame	framework/CellGridFrame.cpp	/^CellGridFrame::CellGridFrame($/;"	f	class:CellGridFrame
+CellGridFrame	framework/CellGridFrame.h	/^class CellGridFrame {$/;"	c
+CmdError	framework/program_options/CmdError.cpp	/^    CmdError::CmdError(const std::string &s):$/;"	f	class:errors::CmdError
+CmdError	framework/program_options/CmdError.h	/^    class CmdError: public std::runtime_error {$/;"	c	namespace:errors
+Coord	flowrouting/FlowRoutingCommon.h	/^typedef uint2 Coord;$/;"	t
+CoordinateType	framework/coordinates.h	/^    class CoordinateType { };$/;"	c	namespace:coordinates
+Culvert	carving/Culvert.h	/^Culvert<T>::Culvert($/;"	f	class:Culvert
+Culvert	carving/Culvert.h	/^class Culvert$/;"	c
+DATA_SOURCE_H_	framework/io/DataSource.h	/^#define DATA_SOURCE_H_$/;"	d
+DATA_SOURCE_TYPES_H_	framework/io/data_source_types.h	/^#define DATA_SOURCE_TYPES_H_$/;"	d
+DEFS_H_	program_carving/defs.h	/^#define DEFS_H_$/;"	d
+DIRECTIONS_H_	framework/directions.h	/^#define DIRECTIONS_H_$/;"	d
+DataSource	framework/io/DataSource.cpp	/^    DataSource::DataSource(DataSourceType type):$/;"	f	class:io::DataSource
+DataSource	framework/io/DataSource.h	/^    class DataSource$/;"	c	namespace:io
+DataSourceCreationError	framework/errors.h	/^            DataSourceCreationError(const std::string &s):$/;"	f	class:errors::DataSourceCreationError
+DataSourceCreationError	framework/errors.h	/^    class DataSourceCreationError: public std::runtime_error {$/;"	c	namespace:errors
+DataSourceType	framework/io/data_source_types.h	/^    enum class DataSourceType {$/;"	c	namespace:io
+Direction	framework/directions.h	/^    enum class Direction {$/;"	c	namespace:directions
+ERRORS_H	framework/errors.h	/^#define ERRORS_H$/;"	d
+ESRI_Shapefile_printer	framework/io/write_to_file.h	/^    class ESRI_Shapefile_printer$/;"	c	namespace:io
+Err	utils/logging.cpp	/^    LogWriter Err()$/;"	f	namespace:logging
+FD_HAS_FLOW_DIR	flowrouting/FlowRoutingCommon.h	/^#define FD_HAS_FLOW_DIR /;"	d
+FD_OUTSIDE	flowrouting/FlowRoutingCommon.h	/^#define FD_OUTSIDE /;"	d
+FD_STREAM	flowrouting/FlowRoutingCommon.h	/^#define FD_STREAM /;"	d
+FLOWROUTINGALGORITHMCPU_H_	flowrouting/FlowRoutingAlgorithmCPU.h	/^#define FLOWROUTINGALGORITHMCPU_H_$/;"	d
+FLOWROUTINGALGORITHM_H_	flowrouting/FlowRoutingAlgorithm.h	/^#define FLOWROUTINGALGORITHM_H_$/;"	d
+FLOWROUTINGCOMMON_H_	flowrouting/FlowRoutingCommon.h	/^#define FLOWROUTINGCOMMON_H_$/;"	d
+FLOW_ACCUMULATION_ALGORITHM_H_	flow_accumulation/FlowAccumulationAlgorithm.h	/^#define FLOW_ACCUMULATION_ALGORITHM_H_$/;"	d
+FlowAccumulationAlgorithm	flow_accumulation/FlowAccumulationAlgorithm.h	/^FlowAccumulationAlgorithm<T, U, C>::FlowAccumulationAlgorithm():$/;"	f	class:FlowAccumulationAlgorithm
+FlowAccumulationAlgorithm	flow_accumulation/FlowAccumulationAlgorithm.h	/^class FlowAccumulationAlgorithm: public AbstractAlgorithm$/;"	c
+FlowRoutingAlgorithm	flowrouting/FlowRoutingAlgorithm.h	/^FlowRoutingAlgorithm<T, U, C, V>::FlowRoutingAlgorithm():$/;"	f	class:FlowRoutingAlgorithm
+FlowRoutingAlgorithm	flowrouting/FlowRoutingAlgorithm.h	/^class FlowRoutingAlgorithm : public AbstractAlgorithm {$/;"	c
+FlowRoutingAlgorithm_CPU	flowrouting/FlowRoutingAlgorithmCPU.h	/^        FlowRoutingAlgorithm_CPU():$/;"	f	class:FlowRoutingAlgorithm_CPU
+FlowRoutingAlgorithm_CPU	flowrouting/FlowRoutingAlgorithmCPU.h	/^class FlowRoutingAlgorithm_CPU:$/;"	c
+FlowRoutingTempDataGuard	flowrouting/FlowRoutingAlgorithm.h	/^        FlowRoutingTempDataGuard(C * flow_routing_algorithm):$/;"	f	class:FlowRoutingTempDataGuard
+FlowRoutingTempDataGuard	flowrouting/FlowRoutingAlgorithm.h	/^class FlowRoutingTempDataGuard: public FlowRoutingTempDataGuardBase$/;"	c
+FlowRoutingTempDataGuardBase	flowrouting/FlowRoutingAlgorithm.h	/^class FlowRoutingTempDataGuardBase$/;"	c
+GDAL	framework/io/GDALRasterPrinter.cpp	/^    namespace GDAL {$/;"	n	namespace:io	file:
+GDAL	framework/io/GDALRasterPrinter.h	/^    namespace GDAL {$/;"	n	namespace:io
+GDAL	framework/io/GDAL_dataset_ptr.cpp	/^    namespace GDAL {$/;"	n	namespace:io	file:
+GDAL	framework/io/GDAL_dataset_ptr.h	/^    namespace GDAL {$/;"	n	namespace:io
+GDAL	framework/io/GDAL_help.cpp	/^    namespace GDAL {$/;"	n	namespace:io	file:
+GDAL	framework/io/GDAL_help.h	/^    namespace GDAL {$/;"	n	namespace:io
+GDALRasterCollectionDataSource	framework/io/GDALRasterCollectionDataSource.cpp	/^    GDALRasterCollectionDataSource::GDALRasterCollectionDataSource():$/;"	f	class:io::GDALRasterCollectionDataSource
+GDALRasterCollectionDataSource	framework/io/GDALRasterCollectionDataSource.h	/^    class GDALRasterCollectionDataSource: public RasterDataSource$/;"	c	namespace:io
+GDALRasterDataSource	framework/io/GDALRasterDataSource.cpp	/^    GDALRasterDataSource::GDALRasterDataSource($/;"	f	class:io::GDALRasterDataSource
+GDALRasterDataSource	framework/io/GDALRasterDataSource.h	/^    class GDALRasterDataSource: public RasterDataSource$/;"	c	namespace:io
+GDAL_DATASET_PTR_H_	framework/io/GDAL_dataset_ptr.h	/^#define GDAL_DATASET_PTR_H_$/;"	d
+GDAL_HELP_H_	framework/io/GDAL_help.h	/^#define GDAL_HELP_H_$/;"	d
+GDAL_RASTER_COLLECTION_DATA_SOURCE_H_	framework/io/GDALRasterCollectionDataSource.h	/^#define GDAL_RASTER_COLLECTION_DATA_SOURCE_H_$/;"	d
+GDAL_RASTER_DATA_SOURCE_H_	framework/io/GDALRasterDataSource.h	/^#define GDAL_RASTER_DATA_SOURCE_H_$/;"	d
+GDAL_RASTER_PRINTER_H_	framework/io/GDALRasterPrinter.h	/^#define GDAL_RASTER_PRINTER_H_$/;"	d
+GDAL_blockref_guard	framework/io/GDAL_help.cpp	/^                GDAL_blockref_guard(GDALRasterBand * band, int x_block, int y_block, bool just_init):$/;"	f	class:io::GDAL::GDAL_blockref_guard
+GDAL_blockref_guard	framework/io/GDAL_help.cpp	/^        class GDAL_blockref_guard {$/;"	c	namespace:io::GDAL	file:
+GDAL_file_list	framework/io/GDALRasterDataSource.cpp	/^            GDAL_file_list(GDALDataset * ds)$/;"	f	class:io::GDAL_file_list
+GDAL_file_list	framework/io/GDALRasterDataSource.cpp	/^    class GDAL_file_list {$/;"	c	namespace:io	file:
+GEOMETRICS_H_	utils/geometrics.h	/^#define GEOMETRICS_H_$/;"	d
+GEO_AREA_H_	framework/Area.h	/^#define GEO_AREA_H_$/;"	d
+GEO_H_	framework/geo.h	/^#define GEO_H_$/;"	d
+GEO_RASTER_AREA_H_	framework/RasterArea.h	/^#define GEO_RASTER_AREA_H_$/;"	d
+GLOBAL_PARAMETERS_H_	framework/global_parameters.h	/^#define GLOBAL_PARAMETERS_H_$/;"	d
+GeoCoordinate	framework/geo.cpp	/^    GeoCoordinate::GeoCoordinate():$/;"	f	class:geo::GeoCoordinate
+GeoCoordinate	framework/geo.cpp	/^    GeoCoordinate::GeoCoordinate(const PixelCenterCoordinate &c):$/;"	f	class:geo::GeoCoordinate
+GeoCoordinate	framework/geo.cpp	/^    GeoCoordinate::GeoCoordinate(double x__, double y__):$/;"	f	class:geo::GeoCoordinate
+GeoCoordinate	framework/geo.h	/^    class GeoCoordinate$/;"	c	namespace:geo
+GeoDims	framework/geo.cpp	/^    GeoDims::GeoDims(double x, double y):$/;"	f	class:geo::GeoDims
+GeoDims	framework/geo.h	/^    class GeoDims {$/;"	c	namespace:geo
+GlobalDataCoords	framework/coordinates.cpp	/^    GlobalDataCoords::GlobalDataCoords($/;"	f	class:coordinates::GlobalDataCoords
+GlobalDataCoords	framework/coordinates.h	/^    class GlobalDataCoords {$/;"	c	namespace:coordinates
+IMPORT_DATA_H_	framework/io/import_data.h	/^#define IMPORT_DATA_H_$/;"	d
+INSERT_CULVERTS_TO_EXPENSIVE_CARVINGS_H_	program_carving/insert_culverts_to_expensive_carvings.h	/^#define INSERT_CULVERTS_TO_EXPENSIVE_CARVINGS_H_$/;"	d
+INSERT_CULVERTS_TO_ROAD_STREAM_INTERSECTIONS_H_	program_carving/insert_culverts_to_road_stream_intersections.h	/^#define INSERT_CULVERTS_TO_ROAD_STREAM_INTERSECTIONS_H_$/;"	d
+INSERT_CULVERT_ALGORITHM_H_	carving/InsertCulvertAlgorithm.h	/^#define INSERT_CULVERT_ALGORITHM_H_$/;"	d
+InsertCulvertAlgorithm	carving/InsertCulvertAlgorithm.cpp	/^InsertCulvertAlgorithm::InsertCulvertAlgorithm():$/;"	f	class:InsertCulvertAlgorithm
+InsertCulvertAlgorithm	carving/InsertCulvertAlgorithm.h	/^class InsertCulvertAlgorithm: public AbstractAlgorithm$/;"	c
+LEFT	framework/directions.h	/^        LEFT = 3,$/;"	m	class:directions::Direction
+LINKED_CELLS_H_	carving/LinkedCells.h	/^#define LINKED_CELLS_H_$/;"	d
+LOGGING_H_	utils/logging.h	/^#define LOGGING_H_$/;"	d
+LinkedCells	carving/LinkedCells.h	/^class LinkedCells {$/;"	c
+Log	utils/logging.cpp	/^    LogWriter Log()$/;"	f	namespace:logging
+LogIndent	utils/logging.cpp	/^    LogIndent::LogIndent(): indentIncr(2)$/;"	f	class:logging::LogIndent
+LogIndent	utils/logging.h	/^    class LogIndent {$/;"	c	namespace:logging
+LogWriter	utils/logging.cpp	/^    LogWriter::LogWriter(LogWriter && old)$/;"	f	class:logging::LogWriter
+LogWriter	utils/logging.cpp	/^    LogWriter::LogWriter(std::ostream &out):$/;"	f	class:logging::LogWriter
+LogWriter	utils/logging.h	/^    class LogWriter$/;"	c	namespace:logging
+MAIN_CARVING_H_	program_carving/program.h	/^#define MAIN_CARVING_H_$/;"	d
+MATH_SQRTTWO	flowrouting/FlowRoutingCommon.h	/^#define MATH_SQRTTWO /;"	d
+NotImplementedError	framework/errors.h	/^    class NotImplementedError: public std::runtime_error$/;"	c	namespace:errors
+PixelCenterCoordinate	framework/geo.cpp	/^    PixelCenterCoordinate::PixelCenterCoordinate(double x__, double y__):$/;"	f	class:geo::PixelCenterCoordinate
+PixelCenterCoordinate	framework/geo.h	/^    class PixelCenterCoordinate$/;"	c	namespace:geo
+PixelTopLeftCoordinate	framework/geo.cpp	/^    PixelTopLeftCoordinate::PixelTopLeftCoordinate(double x__, double y__):$/;"	f	class:geo::PixelTopLeftCoordinate
+PixelTopLeftCoordinate	framework/geo.h	/^    class PixelTopLeftCoordinate$/;"	c	namespace:geo
+ProgramCmdOpts	program_carving/ProgramCmdOpts.cpp	/^ProgramCmdOpts::ProgramCmdOpts():$/;"	f	class:ProgramCmdOpts
+ProgramCmdOpts	program_carving/ProgramCmdOpts.h	/^class ProgramCmdOpts: BaseCmdOpts {$/;"	c
+RASTER_DATA_SOURCE_H_	framework/io/RasterDataSource.h	/^#define RASTER_DATA_SOURCE_H_$/;"	d
+READ	framework/io/GDAL_help.h	/^            READ,$/;"	m	class:io::GDAL::RW_MODE
+REFERENCESYSTEM_H_	framework/ReferenceSystem.h	/^#define REFERENCESYSTEM_H_$/;"	d
+RIGHT	framework/directions.h	/^        RIGHT = 4,$/;"	m	class:directions::Direction
+RW_MODE	framework/io/GDAL_help.h	/^        enum class RW_MODE {$/;"	c	namespace:io::GDAL
+RasterArea	framework/RasterArea.cpp	/^    RasterArea::RasterArea($/;"	f	class:geo::RasterArea
+RasterArea	framework/RasterArea.cpp	/^    RasterArea::RasterArea():$/;"	f	class:geo::RasterArea
+RasterArea	framework/RasterArea.h	/^    class RasterArea: public Area$/;"	c	namespace:geo
+RasterCoordinate	framework/coordinates.cpp	/^    RasterCoordinate::RasterCoordinate($/;"	f	class:coordinates::RasterCoordinate
+RasterCoordinate	framework/coordinates.cpp	/^    RasterCoordinate::RasterCoordinate():$/;"	f	class:coordinates::RasterCoordinate
+RasterCoordinate	framework/coordinates.h	/^    class RasterCoordinate {$/;"	c	namespace:coordinates
+RasterCoordinateDiff	framework/coordinates.cpp	/^    RasterCoordinateDiff::RasterCoordinateDiff($/;"	f	class:coordinates::RasterCoordinateDiff
+RasterCoordinateDiff	framework/coordinates.h	/^    class RasterCoordinateDiff {$/;"	c	namespace:coordinates
+RasterDataSource	framework/io/RasterDataSource.cpp	/^    RasterDataSource::RasterDataSource():$/;"	f	class:io::RasterDataSource
+RasterDataSource	framework/io/RasterDataSource.h	/^    class RasterDataSource: public DataSource {$/;"	c	namespace:io
+RasterDims	framework/coordinates.cpp	/^    RasterDims::RasterDims(raster_coord_type x, raster_coord_type y):$/;"	f	class:coordinates::RasterDims
+RasterDims	framework/coordinates.h	/^    class RasterDims {$/;"	c	namespace:coordinates
+ReferenceSystem	framework/ReferenceSystem.cpp	/^    ReferenceSystem::ReferenceSystem():$/;"	f	class:geo::ReferenceSystem
+ReferenceSystem	framework/ReferenceSystem.cpp	/^    ReferenceSystem::ReferenceSystem(const std::string &s):$/;"	f	class:geo::ReferenceSystem
+ReferenceSystem	framework/ReferenceSystem.h	/^    class ReferenceSystem$/;"	c	namespace:geo
+SHORT2_H_	framework/Short2.h	/^#define SHORT2_H_$/;"	d
+SYSTEM_UTILS_H_	utils/system_utils.h	/^#define SYSTEM_UTILS_H_$/;"	d
+SignalError	framework/errors.h	/^        SignalError(const std::string &s): std::runtime_error(s) {}$/;"	f	class:errors::SignalError
+SignalError	framework/errors.h	/^    class SignalError: public std::runtime_error$/;"	c	namespace:errors
+TIMERTREE_H_	utils/TimerTree.h	/^#define TIMERTREE_H_$/;"	d
+TIMER_H_	utils/Timer.h	/^#define TIMER_H_$/;"	d
+TOP	framework/directions.h	/^        TOP = 1,$/;"	m	class:directions::Direction
+TOP_LEFT	framework/directions.h	/^        TOP_LEFT = 0,$/;"	m	class:directions::Direction
+TOP_RIGHT	framework/directions.h	/^        TOP_RIGHT = 2,$/;"	m	class:directions::Direction
+Timer	utils/Timer.cpp	/^Timer::Timer() :$/;"	f	class:Timer
+Timer	utils/Timer.cpp	/^Timer::Timer(const Timer & other) :$/;"	f	class:Timer
+Timer	utils/Timer.h	/^class Timer {$/;"	c
+TimerController	utils/TimerTree.cpp	/^TimerController::TimerController(std::shared_ptr<TimerTree> const& timertree)$/;"	f	class:TimerController
+TimerController	utils/TimerTree.h	/^class TimerController {$/;"	c
+TimerTree	utils/TimerTree.cpp	/^TimerTree::TimerTree()$/;"	f	class:TimerTree
+TimerTree	utils/TimerTree.cpp	/^TimerTree::TimerTree(const TimerTree & other) :$/;"	f	class:TimerTree
+TimerTree	utils/TimerTree.cpp	/^TimerTree::TimerTree(const std::string & descr, bool root_timer)$/;"	f	class:TimerTree
+TimerTree	utils/TimerTree.cpp	/^TimerTree::TimerTree(const std::string & descr, std::shared_ptr<Timer> const& timer)$/;"	f	class:TimerTree
+TimerTree	utils/TimerTree.h	/^class TimerTree {$/;"	c
+TypeGeoCoordinate	framework/geo.h	/^    class TypeGeoCoordinate { };$/;"	c	namespace:geo
+TypeGlobalRaster	framework/coordinates.h	/^    class TypeGlobalRaster: public CoordinateType { };$/;"	c	namespace:coordinates
+TypePartition	framework/coordinates.h	/^    class TypePartition: public CoordinateType { };$/;"	c	namespace:coordinates
+TypePixelCenterGeoCoordinate	framework/geo.h	/^    class TypePixelCenterGeoCoordinate: public TypeGeoCoordinate { };$/;"	c	namespace:geo
+TypePixelTopLeftCoordinate	framework/geo.h	/^    class TypePixelTopLeftCoordinate: public TypeGeoCoordinate { };$/;"	c	namespace:geo
+TypeRaster	framework/coordinates.h	/^    class TypeRaster: public CoordinateType { };$/;"	c	namespace:coordinates
+VECTORIZE_H_	utils/vectorize.h	/^#define VECTORIZE_H_$/;"	d
+WRITE_TO_FILE_H_	framework/io/write_to_file.h	/^#define WRITE_TO_FILE_H_$/;"	d
+_height	framework/RasterArea.cpp	/^    double RasterArea::_height() const {$/;"	f	class:geo::RasterArea
+_width	framework/RasterArea.cpp	/^    double RasterArea::_width() const {$/;"	f	class:geo::RasterArea
+addChild	utils/TimerTree.cpp	/^std::shared_ptr<TimerTree> TimerTree::addChild(const std::string &name)$/;"	f	class:TimerTree
+addChild	utils/TimerTree.cpp	/^void TimerTree::addChild(const std::string & name, std::shared_ptr<Timer> const& timer)$/;"	f	class:TimerTree
+addChild	utils/TimerTree.cpp	/^void TimerTree::addChild(std::shared_ptr<TimerTree> const& timerTree)$/;"	f	class:TimerTree
+add_data_source	framework/io/GDALRasterCollectionDataSource.cpp	/^    void GDALRasterCollectionDataSource::add_data_source(RasterDataSource * src)$/;"	f	class:io::GDALRasterCollectionDataSource
+add_halo	framework/Area.cpp	/^    void Area::add_halo(double width)$/;"	f	class:geo::Area
+add_halo	framework/RasterArea.cpp	/^    void RasterArea::add_halo(double width)$/;"	f	class:geo::RasterArea
+add_to_list	framework/io/GDALRasterDataSource.cpp	/^            void add_to_list(std::vector<std::string> & list)$/;"	f	class:io::GDAL_file_list
+add_to_stem	framework/io/write_to_file.cpp	/^    boost::filesystem::path add_to_stem($/;"	f	namespace:io
+adjust_dims	framework/RasterArea.cpp	/^    void RasterArea::adjust_dims($/;"	f	class:geo::RasterArea
+adjust_to	framework/RasterArea.cpp	/^    void RasterArea::adjust_to(const PixelCenterCoordinate &coords)$/;"	f	class:geo::RasterArea
+aligned_area	framework/RasterArea.cpp	/^    RasterArea RasterArea::aligned_area($/;"	f	class:geo::RasterArea
+are_compatible	framework/io/RasterDataSource.cpp	/^    std::pair<bool, std::string> are_compatible($/;"	f	namespace:io
+are_overlapping	framework/Area.cpp	/^    bool are_overlapping(const Area &a, const Area &b)$/;"	f	namespace:geo
+area	framework/io/GDALRasterCollectionDataSource.cpp	/^    geo::Area GDALRasterCollectionDataSource::area() const$/;"	f	class:io::GDALRasterCollectionDataSource
+area	framework/io/GDALRasterDataSource.cpp	/^    geo::Area GDALRasterDataSource::area() const$/;"	f	class:io::GDALRasterDataSource
+area_	framework/CellGridFrame.h	/^        const geo::RasterArea & area_;$/;"	m	class:CellGridFrame
+array_file_rw	framework/io/GDAL_help.h	/^        void array_file_rw($/;"	f	namespace:io::GDAL
+array_file_rw_	framework/io/GDAL_help.cpp	/^        void array_file_rw_($/;"	f	namespace:io::GDAL
+array_size	framework/CellGrid.h	/^size_t CellGrid<T, coord_type>::array_size() const {$/;"	f	class:CellGrid
+assign_border_flowdirs_out	flowrouting/FlowRoutingAlgorithmCPU.h	/^void FlowRoutingAlgorithm_CPU<T, U, C, V>::assign_border_flowdirs_out($/;"	f	class:FlowRoutingAlgorithm_CPU
+assign_flowdir_slope	carving/InsertCulvertAlgorithm.h	/^U assign_flowdir_slope($/;"	f
+average	framework/geo.h	/^    average(const T &a, const T &b)$/;"	f	namespace:geo
+average_time	utils/Timer.cpp	/^size_t Timer::average_time() const {$/;"	f	class:Timer
+backtrack	carving/carving_help_CPU.h	/^void backtrack($/;"	f
+base_point	framework/RasterArea.cpp	/^    PixelCenterCoordinate RasterArea::base_point() const$/;"	f	class:geo::RasterArea
+block_	framework/io/GDAL_help.cpp	/^                GDALRasterBlock * block_;$/;"	m	class:io::GDAL::GDAL_blockref_guard	file:
+bottom	framework/Area.cpp	/^    double Area::bottom() const$/;"	f	class:geo::Area
+burn_culvert	carving/InsertCulvertAlgorithm.h	/^void InsertCulvertAlgorithm::burn_culvert($/;"	f	class:InsertCulvertAlgorithm
+burn_culverts	carving/InsertCulvertAlgorithm.h	/^void InsertCulvertAlgorithm::burn_culverts($/;"	f	class:InsertCulvertAlgorithm
+cast_type	framework/io/write_to_file.h	/^    struct cast_type {$/;"	s	namespace:io
+cast_type	framework/io/write_to_file.h	/^    struct cast_type<T, typename std::enable_if<std::is_floating_point<T>::value>::type>$/;"	s	namespace:io
+cast_type	framework/io/write_to_file.h	/^    struct cast_type<std::string> {$/;"	s	namespace:io
+cell_size	framework/RasterArea.cpp	/^    double RasterArea::cell_size() const$/;"	f	class:geo::RasterArea
+cell_size	framework/io/GDALRasterCollectionDataSource.cpp	/^    double GDALRasterCollectionDataSource::cell_size() const$/;"	f	class:io::GDALRasterCollectionDataSource
+cell_size	framework/io/GDALRasterDataSource.cpp	/^    double GDALRasterDataSource::cell_size() const$/;"	f	class:io::GDALRasterDataSource
+cell_size_	framework/RasterArea.h	/^            double cell_size_;$/;"	m	class:geo::RasterArea
+cell_size_	framework/io/GDALRasterDataSource.h	/^            double cell_size_;$/;"	m	class:io::GDALRasterDataSource
+center	carving/Culvert.h	/^        geo::GeoCoordinate center() const {$/;"	f	class:Culvert
+children_	utils/TimerTree.h	/^        std::vector<std::shared_ptr<TimerTree> > children_;$/;"	m	class:TimerTree
+close_old_output	utils/logging.cpp	/^    void close_old_output()$/;"	f	namespace:logging
+col	framework/coordinates.cpp	/^    raster_coord_type GlobalDataCoords::col() const$/;"	f	class:coordinates::GlobalDataCoords
+col	framework/coordinates.cpp	/^    raster_coord_type RasterCoordinate::col() const$/;"	f	class:coordinates::RasterCoordinate
+cols	framework/coordinates.cpp	/^    raster_coord_type RasterDims::cols() const$/;"	f	class:coordinates::RasterDims
+compare_double_exact	utils/system_utils.cpp	/^    bool compare_double_exact(const double &f1, const double &f2)$/;"	f	namespace:system_utils
+compare_exact	utils/system_utils.cpp	/^    bool compare_exact(const double &f1, const double &f2)$/;"	f	namespace:system_utils
+compare_exact	utils/system_utils.cpp	/^    bool compare_exact(const float &f1, const float &f2)$/;"	f	namespace:system_utils
+compare_exact	utils/system_utils.cpp	/^    bool compare_exact(const int2 &t1, const int2 &t2)$/;"	f	namespace:system_utils
+compare_exact	utils/system_utils.h	/^    bool compare_exact(const T &t1, const T &t2)$/;"	f	namespace:system_utils
+compare_float_exact	utils/system_utils.cpp	/^    bool compare_float_exact(const float &f1, const float &f2)$/;"	f	namespace:system_utils
+compare_pq	carving/carving_help_CPU.h	/^struct compare_pq$/;"	s
+constructFullFilePath	utils/system_utils.cpp	/^    std::string constructFullFilePath($/;"	f	namespace:system_utils
+contains_point	framework/Area.cpp	/^    bool Area::contains_point(const geo::GeoCoordinate &c) const$/;"	f	class:geo::Area
+contains_point	framework/RasterArea.cpp	/^    bool RasterArea::contains_point(const PixelCenterCoordinate &c) const$/;"	f	class:geo::RasterArea
+coordinates	framework/coordinates.cpp	/^namespace coordinates {$/;"	n	file:
+coordinates	framework/coordinates.h	/^namespace coordinates {$/;"	n
+copy_data_from	framework/CellGrid.h	/^void CellGrid<T, C>::copy_data_from(const CellGrid<T, C> &other)$/;"	f	class:CellGrid
+create	framework/coordinates.cpp	/^    GlobalDataCoords GlobalDataCoords::create(size_t x, size_t y)$/;"	f	class:coordinates::GlobalDataCoords
+create	framework/coordinates.cpp	/^    RasterDims RasterDims::create(size_t x, size_t y)$/;"	f	class:coordinates::RasterDims
+create_data_file	framework/io/GDALRasterPrinter.cpp	/^        dataset_ptr create_data_file($/;"	f	namespace:io::GDAL
+create_fields	framework/io/write_to_file.h	/^    ESRI_Shapefile_printer::create_fields($/;"	f	class:ESRI_Shapefile_printer
+create_intersection	framework/Area.cpp	/^    Area create_intersection(const Area &a1, const Area &a2)$/;"	f	namespace:geo
+create_linked_cells	carving/LinkedCells.h	/^LinkedCells<typename CG::coord_type> create_linked_cells($/;"	f
+create_raster_collection_data_source	framework/io/import_data.cpp	/^    std::unique_ptr<RasterDataSource> create_raster_collection_data_source($/;"	f	namespace:io
+create_raster_data_source	framework/io/import_data.cpp	/^    std::unique_ptr<RasterDataSource> create_raster_data_source($/;"	f	namespace:io
+create_window	carving/InsertCulvertAlgorithm.h	/^void create_window($/;"	f
+create_window_limits	carving/InsertCulvertAlgorithm.h	/^std::pair<C, C> create_window_limits($/;"	f
+crosses_road	carving/InsertCulvertAlgorithm.h	/^bool InsertCulvertAlgorithm::crosses_road($/;"	f	class:InsertCulvertAlgorithm
+current_time	utils/logging.cpp	/^    std::string current_time() {$/;"	f	namespace:logging
+d8_neighbors	carving/InsertCulvertAlgorithm.h	/^std::vector<T> d8_neighbors($/;"	f
+data	framework/CellGrid.h	/^T const * CellGrid<T, C>::data() const$/;"	f	class:CellGrid
+data	framework/CellGrid.h	/^T* CellGrid<T, coord_type>::data()$/;"	f	class:CellGrid
+data_	framework/CellGrid.h	/^    std::vector<T> data_;$/;"	m	class:CellGrid
+data_set_count	framework/io/GDALRasterCollectionDataSource.cpp	/^    unsigned int GDALRasterCollectionDataSource::data_set_count() const$/;"	f	class:io::GDALRasterCollectionDataSource
+data_type	framework/CellGrid.h	/^GDALDataType CellGrid<T, C>::data_type() const$/;"	f	class:CellGrid
+data_type	framework/io/GDALRasterCollectionDataSource.cpp	/^    GDALDataType GDALRasterCollectionDataSource::data_type() const$/;"	f	class:io::GDALRasterCollectionDataSource
+data_type	framework/io/GDALRasterDataSource.cpp	/^    GDALDataType GDALRasterDataSource::data_type() const$/;"	f	class:io::GDALRasterDataSource
+data_type_	framework/io/GDALRasterDataSource.h	/^            GDALDataType data_type_;$/;"	m	class:io::GDALRasterDataSource
+dataset_ptr	framework/io/GDAL_dataset_ptr.cpp	/^        dataset_ptr::dataset_ptr():$/;"	f	class:io::GDAL::dataset_ptr
+dataset_ptr	framework/io/GDAL_dataset_ptr.cpp	/^        dataset_ptr::dataset_ptr(dataset_ptr && other):$/;"	f	class:io::GDAL::dataset_ptr
+dataset_ptr	framework/io/GDAL_dataset_ptr.h	/^        class dataset_ptr {$/;"	c	namespace:io::GDAL
+dem_data_str	program_carving/ProgramCmdOpts.h	/^        std::string dem_data_str() const { return dem_data_str_; }$/;"	f	class:ProgramCmdOpts
+dem_data_str_	program_carving/ProgramCmdOpts.h	/^        std::string dem_data_str_;$/;"	m	class:ProgramCmdOpts
+desc	framework/program_options/BaseCmdOpts.h	/^        boost::program_options::options_description desc;$/;"	m	class:BaseCmdOpts
+descr	utils/TimerTree.cpp	/^std::string TimerTree::descr() const$/;"	f	class:TimerTree
+descr_	utils/TimerTree.h	/^        std::string descr_;$/;"	m	class:TimerTree
+dims_	framework/Area.h	/^            GeoDims dims_;$/;"	m	class:geo::Area
+directions	framework/directions.cpp	/^namespace directions {$/;"	n	file:
+directions	framework/directions.h	/^namespace directions {$/;"	n
+distance	framework/geo.h	/^    distance(const T & a, const U & b)$/;"	f	namespace:geo
+distance_from_line	utils/geometrics.h	/^double distance_from_line(const C &a, const C &b, const C &p)$/;"	f
+distance_from_segment	utils/geometrics.h	/^double distance_from_segment(const C &a, const C &b, const C &p)$/;"	f
+dryRun	framework/global_parameters.cpp	/^    bool dryRun = false;$/;"	m	namespace:global_parameters	file:
+ds_	framework/io/GDAL_dataset_ptr.h	/^                GDALDataset * ds_;$/;"	m	class:io::GDAL::dataset_ptr
+dx	framework/coordinates.cpp	/^    raster_coord_diff_type RasterCoordinateDiff::dx() const$/;"	f	class:coordinates::RasterCoordinateDiff
+dy	framework/coordinates.cpp	/^    raster_coord_diff_type RasterCoordinateDiff::dy() const$/;"	f	class:coordinates::RasterCoordinateDiff
+errors	framework/errors.cpp	/^namespace errors {$/;"	n	file:
+errors	framework/errors.h	/^namespace errors {$/;"	n
+errors	framework/program_options/CmdError.cpp	/^namespace errors$/;"	n	file:
+errors	framework/program_options/CmdError.h	/^namespace errors {$/;"	n
+execute	carving/CarvingAlgorithm_impl.h	/^void CarvingAlgorithm<T, U, V, C>::execute($/;"	f	class:CarvingAlgorithm
+execute	flow_accumulation/FlowAccumulationAlgorithm.h	/^void FlowAccumulationAlgorithm<T, U, C>::execute($/;"	f	class:FlowAccumulationAlgorithm
+execute_D8	flowrouting/FlowRoutingAlgorithm.h	/^void FlowRoutingAlgorithm<T, U, C, V>::execute_D8($/;"	f	class:FlowRoutingAlgorithm
+extend_roads_with_buffer_region	carving/InsertCulvertAlgorithm.h	/^void InsertCulvertAlgorithm::extend_roads_with_buffer_region($/;"	f	class:InsertCulvertAlgorithm
+extract_slice	framework/CellGrid.h	/^void CellGrid<T, C>::extract_slice($/;"	f	class:CellGrid
+fileExists	utils/system_utils.cpp	/^    bool fileExists(const std::string &filename)$/;"	f	namespace:system_utils
+file_list	framework/io/GDALRasterDataSource.cpp	/^    std::vector<std::string> GDALRasterDataSource::file_list() const$/;"	f	class:io::GDALRasterDataSource
+file_list_	framework/io/GDALRasterDataSource.cpp	/^            char ** file_list_;$/;"	m	class:io::GDAL_file_list	file:
+file_list_	framework/io/GDALRasterDataSource.h	/^            std::vector<std::string> file_list_;$/;"	m	class:io::GDALRasterDataSource
+fill_area_with_id	carving/InsertCulvertAlgorithm.h	/^void InsertCulvertAlgorithm::fill_area_with_id($/;"	f	class:InsertCulvertAlgorithm
+fill_areas_with_unique_id	carving/InsertCulvertAlgorithm.h	/^void InsertCulvertAlgorithm::fill_areas_with_unique_id($/;"	f	class:InsertCulvertAlgorithm
+fill_array	framework/io/GDALRasterCollectionDataSource.cpp	/^    void GDALRasterCollectionDataSource::fill_array($/;"	f	class:io::GDALRasterCollectionDataSource
+fill_array	framework/io/GDALRasterDataSource.cpp	/^    void GDALRasterDataSource::fill_array($/;"	f	class:io::GDALRasterDataSource
+fill_array	framework/io/import_data.h	/^    bool fill_array($/;"	f	namespace:io
+fill_field	framework/io/write_to_file.cpp	/^    void fill_field(OGRFeature &f, int i, const std::string &s)$/;"	f	namespace:io
+find_alternative_carving_near_roads	carving/InsertCulvertAlgorithm.h	/^std::pair<C, bool> InsertCulvertAlgorithm::find_alternative_carving_near_roads($/;"	f	class:InsertCulvertAlgorithm
+find_expensive_carvings	carving/InsertCulvertAlgorithm.h	/^std::multimap<T, std::tuple<C, C, double>> InsertCulvertAlgorithm::find_expensive_carvings($/;"	f	class:InsertCulvertAlgorithm
+find_expensive_carvings_	carving/InsertCulvertAlgorithm.h	/^std::multimap<T, std::tuple<C, C, double>> InsertCulvertAlgorithm::find_expensive_carvings_($/;"	f	class:InsertCulvertAlgorithm
+find_expensive_carvings_upstream_points	carving/InsertCulvertAlgorithm.h	/^std::multimap<T, C> InsertCulvertAlgorithm::find_expensive_carvings_upstream_points($/;"	f	class:InsertCulvertAlgorithm
+find_minima	carving/carving_help_CPU.h	/^std::list<std::pair<C, T>> find_minima($/;"	f
+flow_dir_D8	flowrouting/FlowRoutingAlgorithmCPU.h	/^std::pair<V, T> FlowRoutingAlgorithm_CPU<T, U, C, V>::flow_dir_D8($/;"	f	class:FlowRoutingAlgorithm_CPU
+flow_routing_algorithm_	flowrouting/FlowRoutingAlgorithm.h	/^        C * flow_routing_algorithm_;$/;"	m	class:FlowRoutingTempDataGuard
+flowrouting_help	flowrouting/FlowRoutingAlgorithmCPU.h	/^namespace flowrouting_help {$/;"	n
+flush	utils/logging.cpp	/^    void LogWriter::flush()$/;"	f	class:logging::LogWriter
+format	framework/CellGrid.h	/^void CellGrid<T, coord_type>::format()$/;"	f	class:CellGrid
+format	framework/CellGrid.h	/^void CellGrid<T, coord_type>::format(T val)$/;"	f	class:CellGrid
+freeAllData	framework/CellGrid.h	/^void CellGrid<T, coord_type>::freeAllData()$/;"	f	class:CellGrid
+freeData	framework/CellGrid.h	/^void CellGrid<T, coord_type>::freeData()$/;"	f	class:CellGrid
+geo	framework/Area.cpp	/^namespace geo {$/;"	n	file:
+geo	framework/Area.h	/^namespace geo {$/;"	n
+geo	framework/RasterArea.cpp	/^namespace geo {$/;"	n	file:
+geo	framework/RasterArea.h	/^namespace geo {$/;"	n
+geo	framework/ReferenceSystem.cpp	/^namespace geo {$/;"	n	file:
+geo	framework/ReferenceSystem.h	/^namespace geo {$/;"	n
+geo	framework/geo.cpp	/^namespace geo {$/;"	n	file:
+geo	framework/geo.h	/^namespace geo {$/;"	n
+geo	framework/io/DataSource.h	/^namespace geo {$/;"	n
+geo	framework/io/GDAL_help.h	/^namespace geo {$/;"	n
+geo_area_	framework/io/GDALRasterCollectionDataSource.h	/^            geo::RasterArea geo_area_;$/;"	m	class:io::GDALRasterCollectionDataSource
+geo_area_	framework/io/GDALRasterDataSource.h	/^            geo::RasterArea geo_area_;$/;"	m	class:io::GDALRasterDataSource
+get	framework/io/GDAL_dataset_ptr.cpp	/^        GDALDataset * dataset_ptr::get() {$/;"	f	class:io::GDAL::dataset_ptr
+getHostName	utils/system_utils.cpp	/^    std::string getHostName()$/;"	f	namespace:system_utils
+getMaxDepth	utils/TimerTree.cpp	/^int TimerTree::getMaxDepth() const$/;"	f	class:TimerTree
+getMaxNameWidth	utils/TimerTree.cpp	/^unsigned int TimerTree::getMaxNameWidth() const$/;"	f	class:TimerTree
+getSlice	framework/CellGrid.h	/^T* CellGrid<T, coord_type>::getSlice(size_t initOffset,$/;"	f	class:CellGrid
+getTimer	utils/TimerTree.cpp	/^std::shared_ptr<Timer> TimerTree::getTimer()$/;"	f	class:TimerTree
+getTimerTree	framework/AbstractAlgorithm.cpp	/^std::shared_ptr<TimerTree> AbstractAlgorithm::getTimerTree()$/;"	f	class:AbstractAlgorithm
+get_direction	framework/directions.cpp	/^    Direction get_direction(int i)$/;"	f	namespace:directions
+get_field_precision	framework/io/write_to_file.h	/^    get_field_precision() {$/;"	f	namespace:io
+get_field_type	framework/io/write_to_file.cpp	/^    OGRFieldType get_field_type<double>() {$/;"	f	namespace:io
+get_field_type	framework/io/write_to_file.cpp	/^    OGRFieldType get_field_type<float>() {$/;"	f	namespace:io
+get_field_type	framework/io/write_to_file.cpp	/^    OGRFieldType get_field_type<int>() {$/;"	f	namespace:io
+get_field_type	framework/io/write_to_file.cpp	/^    OGRFieldType get_field_type<std::string>() {$/;"	f	namespace:io
+get_field_type	framework/io/write_to_file.cpp	/^    OGRFieldType get_field_type<unsigned int>() {$/;"	f	namespace:io
+get_field_type	framework/io/write_to_file.h	/^    OGRFieldType get_field_type() {$/;"	f	namespace:io
+get_neig	flowrouting/FlowRoutingAlgorithmCPU.h	/^    void get_neig(int n, T &dx, T &dy) {$/;"	f	namespace:flowrouting_help
+get_neig	flowrouting/FlowRoutingAlgorithmCPU.h	/^    void get_neig(int n, T &dx, T &dy, double &d) {$/;"	f	namespace:flowrouting_help
+get_neig_circular	framework/coordinates.cpp	/^    RasterCoordinateDiff get_neig_circular(int n) {$/;"	f	namespace:coordinates
+get_neig_closest_first	flowrouting/FlowRoutingAlgorithmCPU.h	/^    void get_neig_closest_first(int n, T & dx, T & dy) {$/;"	f	namespace:flowrouting_help
+get_neighbors	carving/carving_help_CPU.h	/^std::vector<C> get_neighbors($/;"	f
+get_nodata	framework/io/GDAL_help.cpp	/^        template<> int2 get_nodata(const io::DataSource & ds)$/;"	f	namespace:io::GDAL
+get_nodata	framework/io/GDAL_help.h	/^        T get_nodata(const io::DataSource & ds)$/;"	f	namespace:io::GDAL
+global_parameters	framework/global_parameters.cpp	/^namespace global_parameters {$/;"	n	file:
+global_parameters	framework/global_parameters.h	/^namespace global_parameters {$/;"	n
+groups_	carving/LinkedCells.h	/^        std::list<std::vector<coord_type>> groups_;$/;"	m	class:LinkedCells
+halo_width	program_carving/ProgramCmdOpts.h	/^        double halo_width() const {$/;"	f	class:ProgramCmdOpts
+halo_width_	program_carving/ProgramCmdOpts.h	/^        double halo_width_;$/;"	m	class:ProgramCmdOpts
+hasChildren	utils/TimerTree.cpp	/^bool TimerTree::hasChildren() const$/;"	f	class:TimerTree
+has_data_inside_area	framework/io/GDALRasterCollectionDataSource.cpp	/^    bool GDALRasterCollectionDataSource::has_data_inside_area(const geo::Area & area) const$/;"	f	class:io::GDALRasterCollectionDataSource
+has_data_inside_area	framework/io/GDALRasterDataSource.cpp	/^    bool GDALRasterDataSource::has_data_inside_area(const geo::Area & area) const$/;"	f	class:io::GDALRasterDataSource
+has_no_data_value	framework/CellGrid.h	/^bool CellGrid<T, C>::has_no_data_value() const$/;"	f	class:CellGrid
+has_no_data_value	framework/io/GDALRasterCollectionDataSource.cpp	/^    bool GDALRasterCollectionDataSource::has_no_data_value() const$/;"	f	class:io::GDALRasterCollectionDataSource
+has_no_data_value	framework/io/GDALRasterDataSource.cpp	/^    bool GDALRasterDataSource::has_no_data_value() const$/;"	f	class:io::GDALRasterDataSource
+has_no_data_value_	framework/io/GDALRasterDataSource.h	/^            bool has_no_data_value_;$/;"	m	class:io::GDALRasterDataSource
+has_special_value	framework/CellGrid.h	/^bool CellGrid<T, C>::has_special_value(const std::string & key) const$/;"	f	class:CellGrid
+height	framework/geo.cpp	/^    double GeoDims::height() const$/;"	f	class:geo::GeoDims
+id	carving/Culvert.h	/^        T id() const { return id_; }$/;"	f	class:Culvert
+id_	carving/Culvert.h	/^        T id_;$/;"	m	class:Culvert
+ignore_dist	program_carving/ProgramCmdOpts.h	/^        double ignore_dist() const {$/;"	f	class:ProgramCmdOpts
+ignore_dist_other_	program_carving/ProgramCmdOpts.h	/^        double ignore_dist_other_;$/;"	m	class:ProgramCmdOpts
+ignore_dist_same_iter	program_carving/ProgramCmdOpts.h	/^        double ignore_dist_same_iter() const {$/;"	f	class:ProgramCmdOpts
+ignore_dist_same_iter_	program_carving/ProgramCmdOpts.h	/^        double ignore_dist_same_iter_;$/;"	m	class:ProgramCmdOpts
+indent	utils/logging.cpp	/^    int indent;$/;"	m	namespace:__anon1	file:
+indentIncr	utils/logging.h	/^            unsigned int indentIncr;$/;"	m	class:logging::LogIndent
+indentation_	utils/TimerTree.h	/^        int indentation_;$/;"	m	class:TimerTree
+init	utils/logging.cpp	/^    void init(const std::string &out, bool timed_)$/;"	f	namespace:logging
+insert_culvert_along_flow_route	carving/InsertCulvertAlgorithm.h	/^std::pair<Culvert<X>, bool> InsertCulvertAlgorithm::insert_culvert_along_flow_route($/;"	f	class:InsertCulvertAlgorithm
+insert_culvert_pit_fill_upstream	carving/InsertCulvertAlgorithm.h	/^std::pair<Culvert<X>, bool> InsertCulvertAlgorithm::insert_culvert_pit_fill_upstream($/;"	f	class:InsertCulvertAlgorithm
+insert_culverts_to_expensive_carvings	program_carving/insert_culverts_to_expensive_carvings.cpp	/^void insert_culverts_to_expensive_carvings($/;"	f
+insert_culverts_to_stream_road_intersections	program_carving/insert_culverts_to_road_stream_intersections.cpp	/^void insert_culverts_to_stream_road_intersections($/;"	f
+int2	framework/Short2.h	/^        int2(): x {0}, y {0} {}$/;"	f	class:int2
+int2	framework/Short2.h	/^        int2(int x_, int y_): x {x_}, y {y_} {}$/;"	f	class:int2
+int2	framework/Short2.h	/^class int2 {$/;"	c
+io	framework/io/DataSource.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/DataSource.h	/^namespace io {$/;"	n
+io	framework/io/GDALRasterCollectionDataSource.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/GDALRasterCollectionDataSource.h	/^namespace io {$/;"	n
+io	framework/io/GDALRasterDataSource.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/GDALRasterDataSource.h	/^namespace io {$/;"	n
+io	framework/io/GDALRasterPrinter.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/GDALRasterPrinter.h	/^namespace io {$/;"	n
+io	framework/io/GDAL_dataset_ptr.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/GDAL_dataset_ptr.h	/^namespace io {$/;"	n
+io	framework/io/GDAL_help.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/GDAL_help.h	/^namespace io {$/;"	n
+io	framework/io/RasterDataSource.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/RasterDataSource.h	/^namespace io {$/;"	n
+io	framework/io/data_source_types.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/data_source_types.h	/^namespace io {$/;"	n
+io	framework/io/import_data.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/import_data.h	/^namespace io {$/;"	n
+io	framework/io/write_to_file.cpp	/^namespace io {$/;"	n	file:
+io	framework/io/write_to_file.h	/^namespace io$/;"	n
+is_aligned_with	framework/RasterArea.cpp	/^    bool RasterArea::is_aligned_with(const RasterArea &other) const$/;"	f	class:geo::RasterArea
+is_allocated	framework/CellGrid.h	/^bool CellGrid<T, coord_type>::is_allocated() const$/;"	f	class:CellGrid
+is_formatted	framework/CellGrid.h	/^    bool is_formatted() const {$/;"	f	class:CellGrid
+is_formatted_	framework/CellGrid.h	/^    bool is_formatted_;$/;"	m	class:CellGrid
+last_interval	utils/Timer.cpp	/^size_t Timer::last_interval() const$/;"	f	class:Timer
+last_interval_	utils/Timer.h	/^    size_t last_interval_;$/;"	m	class:Timer
+left	framework/Area.cpp	/^    double Area::left() const$/;"	f	class:geo::Area
+level_linked_cells	carving/CarvingEngineCPU.h	/^level_linked_cells($/;"	f	class:CarvingEngineCPU
+links_	carving/LinkedCells.h	/^        std::map<coord_type, std::vector<coord_type>*> links_;$/;"	m	class:LinkedCells
+local_area	framework/CellGridFrame.cpp	/^geo::RasterArea CellGridFrame::local_area() const$/;"	f	class:CellGridFrame
+local_height	framework/CellGridFrame.cpp	/^ct CellGridFrame::local_height() const$/;"	f	class:CellGridFrame
+local_size	framework/CellGridFrame.cpp	/^size_t CellGridFrame::local_size() const$/;"	f	class:CellGridFrame
+local_width	framework/CellGridFrame.cpp	/^ct CellGridFrame::local_width() const$/;"	f	class:CellGridFrame
+log_timestamps_	framework/program_options/BaseCmdOpts.h	/^        bool log_timestamps_;$/;"	m	class:BaseCmdOpts
+logging	utils/logging.cpp	/^namespace logging {$/;"	n	file:
+logging	utils/logging.h	/^namespace logging {$/;"	n
+logging_destination	framework/program_options/BaseCmdOpts.h	/^        std::string logging_destination;$/;"	m	class:BaseCmdOpts
+lrx	framework/RasterArea.cpp	/^    double RasterArea::lrx() const {$/;"	f	class:geo::RasterArea
+lry	framework/RasterArea.cpp	/^    double RasterArea::lry() const {$/;"	f	class:geo::RasterArea
+main	program_carving/main.cpp	/^int main(int argc, char** argv)$/;"	f
+min_accepted_overlap	framework/Area.cpp	/^    double Area::min_accepted_overlap() const {$/;"	f	class:geo::Area
+min_accepted_overlap	framework/RasterArea.cpp	/^    double RasterArea::min_accepted_overlap() const {$/;"	f	class:geo::RasterArea
+min_carving_cost_	program_carving/ProgramCmdOpts.h	/^        double min_carving_cost_;$/;"	m	class:ProgramCmdOpts
+min_carving_cost_path	program_carving/ProgramCmdOpts.h	/^        double min_carving_cost_path() const {$/;"	f	class:ProgramCmdOpts
+min_carving_single	program_carving/ProgramCmdOpts.h	/^        double min_carving_single() const {$/;"	f	class:ProgramCmdOpts
+min_carving_single_	program_carving/ProgramCmdOpts.h	/^        double min_carving_single_;$/;"	m	class:ProgramCmdOpts
+min_flow_accum	program_carving/ProgramCmdOpts.h	/^        double min_flow_accum() const {$/;"	f	class:ProgramCmdOpts
+min_flow_accum_	program_carving/ProgramCmdOpts.h	/^        double min_flow_accum_;$/;"	m	class:ProgramCmdOpts
+minimum_cover	framework/Area.cpp	/^    Area minimum_cover(const Area & a1, const Area & a2)$/;"	f	namespace:geo
+move	framework/RasterArea.cpp	/^    coordinates::RasterCoordinate RasterArea::move($/;"	f	class:geo::RasterArea
+move_coord	framework/coordinates.cpp	/^    RasterCoordinate move_coord($/;"	f	namespace:coordinates
+n_groups	carving/LinkedCells.h	/^        size_t n_groups() const { return groups_.size(); }$/;"	f	class:LinkedCells
+n_measurements_	utils/Timer.h	/^    unsigned int n_measurements_;$/;"	m	class:Timer
+name	framework/AbstractAlgorithm.cpp	/^std::string AbstractAlgorithm::name() const$/;"	f	class:AbstractAlgorithm
+name	framework/CellGrid.h	/^std::string CellGrid<T, coord_type>::name() const {$/;"	f	class:CellGrid
+name_	framework/CellGrid.h	/^    std::string name_;$/;"	m	class:CellGrid
+name_	framework/CellGridFrame.h	/^        std::string name_;$/;"	m	class:CellGridFrame
+name_	framework/io/GDALRasterDataSource.h	/^            std::string name_;$/;"	m	class:io::GDALRasterDataSource
+neighbour_cyclic	framework/coordinates.h	/^    C neighbour_cyclic($/;"	f	namespace:coordinates
+no_data_value	framework/CellGrid.h	/^void CellGrid<T, C>::no_data_value(value_type val)$/;"	f	class:CellGrid
+no_data_value	framework/io/GDALRasterCollectionDataSource.cpp	/^    double GDALRasterCollectionDataSource::no_data_value() const$/;"	f	class:io::GDALRasterCollectionDataSource
+no_data_value	framework/io/GDALRasterDataSource.cpp	/^    double GDALRasterDataSource::no_data_value() const$/;"	f	class:io::GDALRasterDataSource
+no_data_value_	framework/io/GDALRasterDataSource.h	/^            double no_data_value_;$/;"	m	class:io::GDALRasterDataSource
+no_data_value_str	framework/io/GDALRasterCollectionDataSource.cpp	/^    std::string GDALRasterCollectionDataSource::no_data_value_str() const$/;"	f	class:io::GDALRasterCollectionDataSource
+no_data_value_str	framework/io/GDALRasterDataSource.cpp	/^    std::string GDALRasterDataSource::no_data_value_str() const$/;"	f	class:io::GDALRasterDataSource
+no_data_value_str_	framework/io/GDALRasterDataSource.h	/^            std::string no_data_value_str_;$/;"	m	class:io::GDALRasterDataSource
+norm	framework/coordinates.cpp	/^    double RasterCoordinateDiff::norm() const$/;"	f	class:coordinates::RasterCoordinateDiff
+norm_squared	framework/coordinates.cpp	/^    raster_coord_diff_type RasterCoordinateDiff::norm_squared() const$/;"	f	class:coordinates::RasterCoordinateDiff
+nullOutStream	utils/logging.cpp	/^    std::ofstream nullOutStream;$/;"	m	namespace:__anon1	file:
+o	utils/logging.cpp	/^    std::ostream *o;$/;"	m	namespace:__anon1	file:
+openFileForReading	utils/system_utils.cpp	/^    void openFileForReading($/;"	f	namespace:system_utils
+openFileForWriting	utils/system_utils.cpp	/^    void openFileForWriting($/;"	f	namespace:system_utils
+operator !=	framework/ReferenceSystem.cpp	/^    bool operator!=(const ReferenceSystem &a, const ReferenceSystem &b)$/;"	f	namespace:geo
+operator !=	framework/Short2.cpp	/^bool operator!= (const int2 &lhs, const int2 &rhs)$/;"	f
+operator !=	framework/Short2.cpp	/^bool operator!= (const schar2 &lhs, const schar2 &rhs)$/;"	f
+operator !=	framework/Short2.cpp	/^bool operator!= (const short2 &lhs, const short2 &rhs)$/;"	f
+operator !=	framework/coordinates.h	/^    operator!=(const T &lhs, const T &rhs)$/;"	f	namespace:coordinates
+operator !=	framework/geo.h	/^    operator!=(const T & a, const T & b)$/;"	f	namespace:geo
+operator ()	carving/carving_help_CPU.h	/^    bool operator()(const T &a, const T &b)$/;"	f	struct:compare_pq
+operator +	framework/coordinates.cpp	/^    RasterCoordinate operator+($/;"	f	namespace:coordinates
+operator -	framework/coordinates.cpp	/^    RasterCoordinateDiff operator-(const RasterCoordinate &a, const RasterCoordinate &b)$/;"	f	namespace:coordinates
+operator -	framework/coordinates.h	/^    typename C::base_type operator-($/;"	f	namespace:coordinates
+operator ->	framework/io/GDAL_dataset_ptr.cpp	/^        GDALDataset * dataset_ptr::operator->()$/;"	f	class:io::GDAL::dataset_ptr
+operator ->	framework/io/GDAL_help.cpp	/^                GDALRasterBlock * operator->()$/;"	f	class:io::GDAL::GDAL_blockref_guard
+operator <	framework/coordinates.h	/^    operator<(const T &lhs, const T &rhs)$/;"	f	namespace:coordinates
+operator <<	carving/Culvert.h	/^std::ostream & operator<<(std::ostream &os, const Culvert<T> &c)$/;"	f
+operator <<	framework/Area.cpp	/^    std::ostream & operator<<(std::ostream &os, const Area &g)$/;"	f	namespace:geo
+operator <<	framework/RasterArea.cpp	/^    std::ostream & operator<<(std::ostream &os, const RasterArea &g)$/;"	f	namespace:geo
+operator <<	framework/Short2.cpp	/^std::ostream & operator<<(std::ostream &os, const int2 & s)$/;"	f
+operator <<	framework/Short2.cpp	/^std::ostream & operator<<(std::ostream &os, const schar2 & s)$/;"	f
+operator <<	framework/Short2.cpp	/^std::ostream & operator<<(std::ostream &os, const short2 & s)$/;"	f
+operator <<	framework/coordinates.h	/^    operator<<(std::ostream &os, const T &c)$/;"	f	namespace:coordinates
+operator <<	framework/directions.cpp	/^    std::ostream & operator<<(std::ostream &o, const Direction &d)$/;"	f	namespace:directions
+operator <<	framework/geo.h	/^    operator<<(std::ostream &os, const T & c)$/;"	f	namespace:geo
+operator <<	framework/io/data_source_types.cpp	/^    std::ostream & operator<<(std::ostream &os, const DataSourceType & val)$/;"	f	namespace:io
+operator <<	utils/logging.h	/^            LogWriter & operator<<(const T &t)$/;"	f	class:logging::LogWriter
+operator =	framework/ReferenceSystem.cpp	/^    ReferenceSystem & ReferenceSystem::operator=(ReferenceSystem r)$/;"	f	class:geo::ReferenceSystem
+operator =	framework/Short2.h	/^        int2 & operator=(const int2 &other) {$/;"	f	class:int2
+operator =	framework/io/GDAL_dataset_ptr.cpp	/^        dataset_ptr & dataset_ptr::operator=(dataset_ptr && other)$/;"	f	class:io::GDAL::dataset_ptr
+operator ==	framework/RasterArea.cpp	/^    bool operator==(const RasterArea & a, const RasterArea & b)$/;"	f	namespace:geo
+operator ==	framework/ReferenceSystem.cpp	/^    bool operator==(const ReferenceSystem &a, const ReferenceSystem &b)$/;"	f	namespace:geo
+operator ==	framework/coordinates.h	/^    operator==(const T &lhs, const T &rhs)$/;"	f	namespace:coordinates
+operator ==	framework/geo.h	/^    operator==(const T & a, const T & b)$/;"	f	namespace:geo
+other	framework/Short2.h	/^        int2(const int2 &other) = default;$/;"	m	class:int2
+outFileStream	utils/logging.cpp	/^    std::ofstream outFileStream;$/;"	m	namespace:__anon1	file:
+output_identifier	utils/logging.cpp	/^    std::string output_identifier;$/;"	m	namespace:__anon1	file:
+overlap	framework/RasterArea.cpp	/^    RasterArea RasterArea::overlap(const RasterArea &other) const$/;"	f	class:geo::RasterArea
+override	flowrouting/FlowRoutingAlgorithmCPU.h	/^                CellGrid<T, C> & flow_dirs) override;$/;"	m	class:FlowRoutingAlgorithm_CPU
+override	flowrouting/FlowRoutingAlgorithmCPU.h	/^                U noDataValueDem) override;$/;"	m	class:FlowRoutingAlgorithm_CPU
+override	flowrouting/FlowRoutingAlgorithmCPU.h	/^            CellGrid<T, C> & flowdirs) override;$/;"	m	class:FlowRoutingAlgorithm_CPU
+override	flowrouting/FlowRoutingAlgorithmCPU.h	/^            const typename C::datatype & ny) override;$/;"	m	class:FlowRoutingAlgorithm_CPU
+override	framework/CellGrid.h	/^    bool is_allocated() const override;$/;"	m	class:CellGrid
+override	framework/CellGrid.h	/^    size_t array_size() const override;$/;"	m	class:CellGrid
+override	framework/CellGrid.h	/^    std::string name() const override;$/;"	m	class:CellGrid
+override	framework/io/GDALRasterCollectionDataSource.h	/^                GDALDataType) const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            GDALDataType data_type() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            bool has_data_inside_area(const geo::Area &) const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            bool has_no_data_value() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            double cell_size() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            double no_data_value() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            geo::Area area() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            geo::PixelTopLeftCoordinate ul_corner() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            geo::RasterArea raster_area() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            geo::ReferenceSystem CRS() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterCollectionDataSource.h	/^            std::string no_data_value_str() const override;$/;"	m	class:io::GDALRasterCollectionDataSource
+override	framework/io/GDALRasterDataSource.h	/^                GDALDataType \/*value_type*\/) const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            GDALDataType data_type() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            bool has_data_inside_area(const geo::Area &) const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            bool has_no_data_value() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            double cell_size() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            double no_data_value() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            geo::Area area() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            geo::PixelTopLeftCoordinate ul_corner() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            geo::RasterArea raster_area() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            geo::ReferenceSystem CRS() const override;$/;"	m	class:io::GDALRasterDataSource
+override	framework/io/GDALRasterDataSource.h	/^            std::string no_data_value_str() const override;$/;"	m	class:io::GDALRasterDataSource
+pErr	utils/logging.cpp	/^    LogWriter pErr()$/;"	f	namespace:logging
+pLog	utils/logging.cpp	/^    LogWriter pLog()$/;"	f	namespace:logging
+pLog	utils/logging.cpp	/^    LogWriter pLog(int verb_level)$/;"	f	namespace:logging
+pLogDB	utils/logging.cpp	/^    LogWriter pLogDB()$/;"	f	namespace:logging
+parse	framework/program_options/BaseCmdOpts.cpp	/^void BaseCmdOpts::parse(int argc, char** argv)$/;"	f	class:BaseCmdOpts
+parse	program_carving/ProgramCmdOpts.cpp	/^void ProgramCmdOpts::parse(int argc, char** argv)$/;"	f	class:ProgramCmdOpts
+performFlowRoutingD8	flowrouting/FlowRoutingAlgorithmCPU.h	/^void FlowRoutingAlgorithm_CPU<T, U, C, V>::performFlowRoutingD8($/;"	f	class:FlowRoutingAlgorithm_CPU
+perform_carving	carving/CarvingEngineCPU.h	/^void CarvingEngineCPU<T, U, V, C>::perform_carving($/;"	f	class:CarvingEngineCPU
+perform_flow_accumulation	flow_accumulation/FlowAccumulationAlgorithm.h	/^void FlowAccumulationAlgorithm<T, U, C>::perform_flow_accumulation($/;"	f	class:FlowAccumulationAlgorithm
+perform_flow_routing_non_flat_D8	flowrouting/FlowRoutingAlgorithmCPU.h	/^void FlowRoutingAlgorithm_CPU<T, U, C, V>::perform_flow_routing_non_flat_D8($/;"	f	class:FlowRoutingAlgorithm_CPU
+pixel_dims_	framework/RasterArea.h	/^            coordinates::RasterDims pixel_dims_;$/;"	m	class:geo::RasterArea
+pixel_height	framework/RasterArea.cpp	/^    coordinates::raster_coord_type RasterArea::pixel_height() const {$/;"	f	class:geo::RasterArea
+pixel_offset_to	framework/RasterArea.cpp	/^    coordinates::RasterCoordinateDiff RasterArea::pixel_offset_to($/;"	f	class:geo::RasterArea
+pixel_width	framework/RasterArea.cpp	/^    coordinates::raster_coord_type RasterArea::pixel_width() const {$/;"	f	class:geo::RasterArea
+pixelbits	framework/io/write_to_file.cpp	/^    int pixelbits<double>() { return 64; }$/;"	f	namespace:io
+pixelbits	framework/io/write_to_file.cpp	/^    int pixelbits<float>() { return 32; }$/;"	f	namespace:io
+pixelbits	framework/io/write_to_file.cpp	/^    int pixelbits<int>() { return 32; }$/;"	f	namespace:io
+pixelbits	framework/io/write_to_file.cpp	/^    int pixelbits<std::string>() { return 10; }$/;"	f	namespace:io
+pixelbits	framework/io/write_to_file.cpp	/^    int pixelbits<unsigned int>() { return 32; }$/;"	f	namespace:io
+pixelbits	framework/io/write_to_file.h	/^    int pixelbits() {$/;"	f	namespace:io
+plainLog	utils/logging.cpp	/^    LogWriter plainLog()$/;"	f	namespace:logging
+pre_data_input	framework/CellGrid.h	/^void CellGrid<T, C>::pre_data_input($/;"	f	class:CellGrid
+prefix	utils/logging.cpp	/^    std::string prefix;$/;"	m	namespace:__anon1	file:
+program	program_carving/program.cpp	/^int program($/;"	f
+raster_area	framework/io/GDALRasterCollectionDataSource.cpp	/^    geo::RasterArea GDALRasterCollectionDataSource::raster_area() const$/;"	f	class:io::GDALRasterCollectionDataSource
+raster_area	framework/io/GDALRasterDataSource.cpp	/^    geo::RasterArea GDALRasterDataSource::raster_area() const$/;"	f	class:io::GDALRasterDataSource
+raster_dims	framework/RasterArea.cpp	/^    coordinates::RasterDims RasterArea::raster_dims() const$/;"	f	class:geo::RasterArea
+readFromFile	utils/system_utils.h	/^    void readFromFile($/;"	f	namespace:system_utils
+readFromTempFile	utils/system_utils.h	/^    void readFromTempFile($/;"	f	namespace:system_utils
+ref_system_	framework/Area.h	/^            ReferenceSystem ref_system_;$/;"	m	class:geo::Area
+remove_special_value	framework/CellGrid.h	/^void CellGrid<T, C>::remove_special_value(const std::string & key)$/;"	f	class:CellGrid
+replaceSlice	framework/CellGrid.h	/^void CellGrid<T, coord_type>::replaceSlice($/;"	f	class:CellGrid
+reset	framework/io/GDAL_dataset_ptr.cpp	/^        void dataset_ptr::reset(GDALDataset * ds)$/;"	f	class:io::GDAL::dataset_ptr
+right	framework/Area.cpp	/^    double Area::right() const$/;"	f	class:geo::Area
+road_buffer_	program_carving/ProgramCmdOpts.h	/^        double road_buffer_;$/;"	m	class:ProgramCmdOpts
+road_buffer_width	program_carving/ProgramCmdOpts.h	/^        double road_buffer_width() const {$/;"	f	class:ProgramCmdOpts
+road_data_str	program_carving/ProgramCmdOpts.h	/^        std::string road_data_str() const { return road_data_str_; }$/;"	f	class:ProgramCmdOpts
+road_data_str_	program_carving/ProgramCmdOpts.h	/^        std::string road_data_str_;$/;"	m	class:ProgramCmdOpts
+root_timer_	utils/TimerTree.h	/^        bool root_timer_;$/;"	m	class:TimerTree
+rotate	utils/geometrics.h	/^C rotate(const C &c, double angle)$/;"	f
+row	framework/coordinates.cpp	/^    raster_coord_type GlobalDataCoords::row() const$/;"	f	class:coordinates::GlobalDataCoords
+row	framework/coordinates.cpp	/^    raster_coord_type RasterCoordinate::row() const$/;"	f	class:coordinates::RasterCoordinate
+rows	framework/coordinates.cpp	/^    raster_coord_type RasterDims::rows() const$/;"	f	class:coordinates::RasterDims
+running	utils/Timer.cpp	/^bool Timer::running() const$/;"	f	class:Timer
+running_	utils/Timer.h	/^    bool running_;$/;"	m	class:Timer
+schar2	framework/Short2.h	/^class schar2 {$/;"	c
+setDefaultValues	framework/CellGrid.h	/^void CellGrid<T, coord_type>::setDefaultValues()$/;"	f	class:CellGrid
+setDefaultValues	utils/TimerTree.cpp	/^void TimerTree::setDefaultValues() {$/;"	f	class:TimerTree
+setDescr	utils/TimerTree.cpp	/^void TimerTree::setDescr(std::string name)$/;"	f	class:TimerTree
+setTimer	utils/TimerTree.cpp	/^void TimerTree::setTimer(std::shared_ptr<Timer> const& timer)$/;"	f	class:TimerTree
+set_output_to_logfile	utils/logging.cpp	/^    void set_output_to_logfile(const std::string &out)$/;"	f	namespace:logging
+set_output_to_null	utils/logging.cpp	/^    void set_output_to_null()$/;"	f	namespace:logging
+set_output_to_stdout	utils/logging.cpp	/^    void set_output_to_stdout()$/;"	f	namespace:logging
+short2	framework/Short2.h	/^class short2 {$/;"	c
+simplify_line	utils/vectorize.h	/^    std::vector<C> simplify_line($/;"	f	namespace:vectorize
+sink	carving/Culvert.h	/^        geo::PixelCenterCoordinate sink() const { return sink_; }$/;"	f	class:Culvert
+sink_	carving/Culvert.h	/^        geo::PixelCenterCoordinate sink_;$/;"	m	class:Culvert
+source	carving/Culvert.h	/^        geo::PixelCenterCoordinate source() const { return source_; }$/;"	f	class:Culvert
+source_	carving/Culvert.h	/^        geo::PixelCenterCoordinate source_;$/;"	m	class:Culvert
+source_type	framework/io/import_data.cpp	/^    DataSourceType DataSource::source_type() const$/;"	f	class:io::DataSource
+source_type_	framework/io/DataSource.h	/^            DataSourceType source_type_;$/;"	m	class:io::DataSource
+sources_	framework/io/GDALRasterCollectionDataSource.h	/^            std::vector<std::unique_ptr<RasterDataSource>> sources_;$/;"	m	class:io::GDALRasterCollectionDataSource
+special_value	framework/CellGrid.h	/^T CellGrid<T, C>::special_value(const std::string & key) const$/;"	f	class:CellGrid
+special_value	framework/CellGrid.h	/^void CellGrid<T, C>::special_value(const std::string & key, value_type val)$/;"	f	class:CellGrid
+special_values_	framework/CellGrid.h	/^    std::map<std::string, value_type> special_values_;$/;"	m	class:CellGrid
+ss	utils/logging.h	/^            std::unique_ptr<std::stringstream> ss;$/;"	m	class:logging::LogWriter
+start	utils/Timer.cpp	/^void Timer::start() {$/;"	f	class:Timer
+start	utils/TimerTree.cpp	/^void TimerController::start()$/;"	f	class:TimerController
+start	utils/TimerTree.cpp	/^void TimerTree::start()$/;"	f	class:TimerTree
+start_	utils/Timer.h	/^    std::chrono::time_point<std::chrono::high_resolution_clock> start_, stop_;$/;"	m	class:Timer
+starting_time	utils/Timer.cpp	/^std::chrono::time_point<std::chrono::high_resolution_clock> Timer::starting_time() const$/;"	f	class:Timer
+stop	utils/Timer.cpp	/^void Timer::stop() {$/;"	f	class:Timer
+stop	utils/TimerTree.cpp	/^void TimerController::stop()$/;"	f	class:TimerController
+stop	utils/TimerTree.cpp	/^void TimerTree::stop()$/;"	f	class:TimerTree
+stop_	utils/Timer.h	/^    std::chrono::time_point<std::chrono::high_resolution_clock> start_, stop_;$/;"	m	class:Timer
+stream	utils/logging.cpp	/^    std::ostream & LogWriter::stream()$/;"	f	class:logging::LogWriter
+stream_	utils/logging.h	/^            std::ostream* stream_;$/;"	m	class:logging::LogWriter
+string	framework/ReferenceSystem.cpp	/^    std::string ReferenceSystem::string() const$/;"	f	class:geo::ReferenceSystem
+sub_area	framework/RasterArea.cpp	/^    RasterArea RasterArea::sub_area($/;"	f	class:geo::RasterArea
+summary	utils/TimerTree.cpp	/^void TimerTree::summary() const$/;"	f	class:TimerTree
+summary	utils/TimerTree.cpp	/^void TimerTree::summary(int level, size_t total, int nameWidth, int depth) const$/;"	f	class:TimerTree
+system_utils	utils/system_utils.cpp	/^namespace system_utils {$/;"	n	file:
+system_utils	utils/system_utils.h	/^namespace system_utils {$/;"	n
+timed	utils/logging.cpp	/^    bool timed;$/;"	m	namespace:__anon1	file:
+timerComm	framework/AbstractAlgorithm.h	/^    std::shared_ptr<TimerTree> timerComm;$/;"	m	class:AbstractAlgorithm
+timerExec	framework/AbstractAlgorithm.h	/^    std::shared_ptr<TimerTree> timerExec;$/;"	m	class:AbstractAlgorithm
+timerFlatDirAssign	flowrouting/FlowRoutingAlgorithm.h	/^    std::shared_ptr<TimerTree> timerFlatDirAssign;$/;"	m	class:FlowRoutingAlgorithm
+timerMisc	framework/AbstractAlgorithm.h	/^    std::shared_ptr<TimerTree> timerMisc;$/;"	m	class:AbstractAlgorithm
+timerTree	framework/AbstractAlgorithm.h	/^    std::shared_ptr<TimerTree> timerTree;$/;"	m	class:AbstractAlgorithm
+timerTreeFlat	flowrouting/FlowRoutingAlgorithm.h	/^    std::shared_ptr<TimerTree> timerTreeFlat;$/;"	m	class:FlowRoutingAlgorithm
+timerTreeNonFlat	flowrouting/FlowRoutingAlgorithm.h	/^    std::shared_ptr<TimerTree> timerTreeNonFlat;$/;"	m	class:FlowRoutingAlgorithm
+timer_	utils/TimerTree.h	/^        std::shared_ptr<Timer> timer_;$/;"	m	class:TimerController
+timer_	utils/TimerTree.h	/^        std::shared_ptr<Timer> timer_;$/;"	m	class:TimerTree
+timestamp	utils/logging.cpp	/^std::string timestamp() {$/;"	f
+tmp_send_boundaries	framework/CellGrid.h	/^    std::vector<T*> tmp_send_boundaries;$/;"	m	class:CellGrid
+toGDALDataType	framework/io/GDAL_help.cpp	/^        template<> GDALDataType toGDALDataType<char>()$/;"	f	namespace:io::GDAL
+toGDALDataType	framework/io/GDAL_help.cpp	/^        template<> GDALDataType toGDALDataType<float>()$/;"	f	namespace:io::GDAL
+toGDALDataType	framework/io/GDAL_help.cpp	/^        template<> GDALDataType toGDALDataType<int>()$/;"	f	namespace:io::GDAL
+toGDALDataType	framework/io/GDAL_help.cpp	/^        template<> GDALDataType toGDALDataType<short>()$/;"	f	namespace:io::GDAL
+toGDALDataType	framework/io/GDAL_help.cpp	/^        template<> GDALDataType toGDALDataType<unsigned char>()$/;"	f	namespace:io::GDAL
+toGDALDataType	framework/io/GDAL_help.cpp	/^        template<> GDALDataType toGDALDataType<unsigned int>()$/;"	f	namespace:io::GDAL
+toGDALDataType	framework/io/GDAL_help.cpp	/^        template<> GDALDataType toGDALDataType<unsigned short>()$/;"	f	namespace:io::GDAL
+toGDALDataType	framework/io/GDAL_help.h	/^        GDALDataType toGDALDataType()$/;"	f	namespace:io::GDAL
+toInt	utils/system_utils.cpp	/^    template<> int toInt(const int2 &value)$/;"	f	namespace:system_utils
+toInt	utils/system_utils.cpp	/^    template<> int toInt(const schar2 &value)$/;"	f	namespace:system_utils
+toInt	utils/system_utils.cpp	/^    template<> int toInt(const short2 &value)$/;"	f	namespace:system_utils
+toInt	utils/system_utils.h	/^    int toInt(const T &value)$/;"	f	namespace:system_utils
+toString	utils/system_utils.cpp	/^    template<> std::string toString(const char &value)$/;"	f	namespace:system_utils
+toString	utils/system_utils.cpp	/^    template<> std::string toString(const short2 &value)$/;"	f	namespace:system_utils
+toString	utils/system_utils.cpp	/^    template<> std::string toString(const unsigned char &value)$/;"	f	namespace:system_utils
+toString	utils/system_utils.h	/^    std::string toString(const T &value)$/;"	f	namespace:system_utils
+to_geocoordinate	framework/CellGridFrame.cpp	/^geo::PixelCenterCoordinate CellGridFrame::to_geocoordinate($/;"	f	class:CellGridFrame
+to_geocoordinate	framework/RasterArea.cpp	/^    PixelCenterCoordinate RasterArea::to_geocoordinate($/;"	f	class:geo::RasterArea
+to_pixel_x	framework/RasterArea.cpp	/^    coordinates::raster_coord_type RasterArea::to_pixel_x(double xval) const$/;"	f	class:geo::RasterArea
+to_pixel_y	framework/RasterArea.cpp	/^    coordinates::raster_coord_type RasterArea::to_pixel_y(double yval) const$/;"	f	class:geo::RasterArea
+to_raster_coordinate	framework/RasterArea.cpp	/^    coordinates::RasterCoordinate RasterArea::to_raster_coordinate($/;"	f	class:geo::RasterArea
+to_raster_index	framework/CellGridFrame.cpp	/^size_t CellGridFrame::to_raster_index($/;"	f	class:CellGridFrame
+to_raster_index	framework/coordinates.h	/^    inline size_t to_raster_index(const RasterCoordinate &c, size_t nx)$/;"	f	namespace:coordinates
+to_raster_index	framework/coordinates.h	/^    inline size_t to_raster_index(size_t col, size_t row, size_t width)$/;"	f	namespace:coordinates
+to_vector_str	framework/Area.cpp	/^    std::vector<std::string> Area::to_vector_str() const$/;"	f	class:geo::Area
+top	framework/Area.cpp	/^    double Area::top() const$/;"	f	class:geo::Area
+top_left	framework/Area.cpp	/^    GeoCoordinate Area::top_left() const$/;"	f	class:geo::Area
+top_left_	framework/Area.h	/^            GeoCoordinate top_left_;$/;"	m	class:geo::Area
+total_time	utils/Timer.cpp	/^size_t Timer::total_time() const$/;"	f	class:Timer
+total_time_	utils/Timer.h	/^    size_t total_time_;$/;"	m	class:Timer
+two_way	carving/Culvert.h	/^        bool two_way() const { return true; }$/;"	f	class:Culvert
+uint2	framework/Short2.h	/^class uint2 {$/;"	c
+ul_corner	framework/RasterArea.cpp	/^    PixelCenterCoordinate RasterArea::ul_corner() const$/;"	f	class:geo::RasterArea
+ul_corner	framework/RasterArea.cpp	/^    void RasterArea::ul_corner(const PixelCenterCoordinate &gc)$/;"	f	class:geo::RasterArea
+ul_corner	framework/io/GDALRasterCollectionDataSource.cpp	/^    geo::PixelTopLeftCoordinate GDALRasterCollectionDataSource::ul_corner() const$/;"	f	class:io::GDALRasterCollectionDataSource
+ul_corner	framework/io/GDALRasterDataSource.cpp	/^    geo::PixelTopLeftCoordinate GDALRasterDataSource::ul_corner() const$/;"	f	class:io::GDALRasterDataSource
+ulx	framework/RasterArea.cpp	/^    double RasterArea::ulx() const {$/;"	f	class:geo::RasterArea
+uly	framework/RasterArea.cpp	/^    double RasterArea::uly() const {$/;"	f	class:geo::RasterArea
+unIndent	utils/logging.cpp	/^    void LogIndent::unIndent()$/;"	f	class:logging::LogIndent
+unset_no_data_value	framework/CellGrid.h	/^void CellGrid<T, C>::unset_no_data_value()$/;"	f	class:CellGrid
+value_at	framework/CellGrid.h	/^T CellGrid<T, C>::value_at(const geo::PixelCenterCoordinate &gc) const$/;"	f	class:CellGrid
+vectorize	utils/vectorize.h	/^namespace vectorize {$/;"	n
+vectorize_stream_like_raster	utils/vectorize.h	/^    vectorize_stream_like_raster($/;"	f	namespace:vectorize
+verbosity	framework/global_parameters.cpp	/^    int verbosity = 1;$/;"	m	namespace:global_parameters	file:
+vm	framework/program_options/BaseCmdOpts.h	/^        boost::program_options::variables_map vm;$/;"	m	class:BaseCmdOpts
+width	framework/geo.cpp	/^    double GeoDims::width() const$/;"	f	class:geo::GeoDims
+widthPercent_	utils/TimerTree.h	/^        int widthPercent_;$/;"	m	class:TimerTree
+widthTime_	utils/TimerTree.h	/^        int widthTime_;$/;"	m	class:TimerTree
+wkt_str_	framework/ReferenceSystem.h	/^            std::string wkt_str_;$/;"	m	class:geo::ReferenceSystem
+write	framework/io/GDALRasterPrinter.h	/^        void write($/;"	f	namespace:io::GDAL
+write	framework/io/write_to_file.h	/^    void ESRI_Shapefile_printer::write($/;"	f	class:ESRI_Shapefile_printer
+writeToFile	utils/system_utils.h	/^    void writeToFile($/;"	f	namespace:system_utils
+x	framework/Short2.h	/^        int x;$/;"	m	class:int2
+x	framework/Short2.h	/^        short x;$/;"	m	class:short2
+x	framework/Short2.h	/^        signed char x;$/;"	m	class:schar2
+x	framework/Short2.h	/^        unsigned int x;$/;"	m	class:uint2
+x	framework/geo.cpp	/^    double GeoCoordinate::x() const$/;"	f	class:geo::GeoCoordinate
+x	framework/geo.cpp	/^    double PixelCenterCoordinate::x() const$/;"	f	class:geo::PixelCenterCoordinate
+x	framework/geo.cpp	/^    double PixelTopLeftCoordinate::x() const$/;"	f	class:geo::PixelTopLeftCoordinate
+x_	framework/coordinates.h	/^            raster_coord_diff_type x_;$/;"	m	class:coordinates::RasterCoordinateDiff
+x_	framework/coordinates.h	/^            raster_coord_type x_;$/;"	m	class:coordinates::GlobalDataCoords
+x_	framework/coordinates.h	/^            raster_coord_type x_;$/;"	m	class:coordinates::RasterCoordinate
+x_	framework/coordinates.h	/^            raster_coord_type x_;$/;"	m	class:coordinates::RasterDims
+x_	framework/geo.h	/^            double x_;$/;"	m	class:geo::GeoCoordinate
+x_	framework/geo.h	/^            double x_;$/;"	m	class:geo::GeoDims
+x_	framework/geo.h	/^            double x_;$/;"	m	class:geo::PixelCenterCoordinate
+x_	framework/geo.h	/^            double x_;$/;"	m	class:geo::PixelTopLeftCoordinate
+y	framework/Short2.h	/^        int y;$/;"	m	class:int2
+y	framework/Short2.h	/^        short y;$/;"	m	class:short2
+y	framework/Short2.h	/^        signed char y;$/;"	m	class:schar2
+y	framework/Short2.h	/^        unsigned int y;$/;"	m	class:uint2
+y	framework/geo.cpp	/^    double GeoCoordinate::y() const$/;"	f	class:geo::GeoCoordinate
+y	framework/geo.cpp	/^    double PixelCenterCoordinate::y() const$/;"	f	class:geo::PixelCenterCoordinate
+y	framework/geo.cpp	/^    double PixelTopLeftCoordinate::y() const$/;"	f	class:geo::PixelTopLeftCoordinate
+y_	framework/coordinates.h	/^            raster_coord_diff_type y_;$/;"	m	class:coordinates::RasterCoordinateDiff
+y_	framework/coordinates.h	/^            raster_coord_type y_;$/;"	m	class:coordinates::GlobalDataCoords
+y_	framework/coordinates.h	/^            raster_coord_type y_;$/;"	m	class:coordinates::RasterCoordinate
+y_	framework/coordinates.h	/^            raster_coord_type y_;$/;"	m	class:coordinates::RasterDims
+y_	framework/geo.h	/^            double y_;$/;"	m	class:geo::GeoCoordinate
+y_	framework/geo.h	/^            double y_;$/;"	m	class:geo::GeoDims
+y_	framework/geo.h	/^            double y_;$/;"	m	class:geo::PixelCenterCoordinate
+y_	framework/geo.h	/^            double y_;$/;"	m	class:geo::PixelTopLeftCoordinate
+zero_value	utils/system_utils.cpp	/^    template<> int2 zero_value<int2>()$/;"	f	namespace:system_utils
+zero_value	utils/system_utils.h	/^    T zero_value() {$/;"	f	namespace:system_utils
+~AbstractAlgorithm	framework/AbstractAlgorithm.cpp	/^AbstractAlgorithm::~AbstractAlgorithm() {$/;"	f	class:AbstractAlgorithm
+~AlgorithmNotFinishedError	framework/errors.cpp	/^    AlgorithmNotFinishedError::~AlgorithmNotFinishedError()$/;"	f	class:errors::AlgorithmNotFinishedError
+~BaseCmdOpts	framework/program_options/BaseCmdOpts.cpp	/^BaseCmdOpts::~BaseCmdOpts()$/;"	f	class:BaseCmdOpts
+~CarvingAlgorithm	carving/CarvingAlgorithm.h	/^        virtual ~CarvingAlgorithm() {}$/;"	f	class:CarvingAlgorithm
+~CarvingEngine	carving/CarvingEngine.h	/^        virtual ~CarvingEngine() {}$/;"	f	class:CarvingEngine
+~CellGrid	framework/CellGrid.h	/^CellGrid<T, coord_type>::~CellGrid()$/;"	f	class:CellGrid
+~CellGridCreationError	framework/errors.cpp	/^    CellGridCreationError::~CellGridCreationError()$/;"	f	class:errors::CellGridCreationError
+~CellGridFrame	framework/CellGridFrame.cpp	/^CellGridFrame::~CellGridFrame()$/;"	f	class:CellGridFrame
+~CmdError	framework/program_options/CmdError.cpp	/^    CmdError::~CmdError()$/;"	f	class:errors::CmdError
+~DataSource	framework/io/DataSource.cpp	/^    DataSource::~DataSource()$/;"	f	class:io::DataSource
+~DataSourceCreationError	framework/errors.cpp	/^    DataSourceCreationError::~DataSourceCreationError()$/;"	f	class:errors::DataSourceCreationError
+~FlowAccumulationAlgorithm	flow_accumulation/FlowAccumulationAlgorithm.h	/^FlowAccumulationAlgorithm<T, U, C>::~FlowAccumulationAlgorithm()$/;"	f	class:FlowAccumulationAlgorithm
+~FlowRoutingAlgorithm	flowrouting/FlowRoutingAlgorithm.h	/^FlowRoutingAlgorithm<T, U, C, V>::~FlowRoutingAlgorithm() {$/;"	f	class:FlowRoutingAlgorithm
+~FlowRoutingTempDataGuard	flowrouting/FlowRoutingAlgorithm.h	/^        virtual ~FlowRoutingTempDataGuard()$/;"	f	class:FlowRoutingTempDataGuard
+~FlowRoutingTempDataGuardBase	flowrouting/FlowRoutingAlgorithm.cpp	/^FlowRoutingTempDataGuardBase::~FlowRoutingTempDataGuardBase()$/;"	f	class:FlowRoutingTempDataGuardBase
+~GDALRasterCollectionDataSource	framework/io/GDALRasterCollectionDataSource.cpp	/^    GDALRasterCollectionDataSource::~GDALRasterCollectionDataSource()$/;"	f	class:io::GDALRasterCollectionDataSource
+~GDALRasterDataSource	framework/io/GDALRasterDataSource.cpp	/^    GDALRasterDataSource::~GDALRasterDataSource()$/;"	f	class:io::GDALRasterDataSource
+~GDAL_blockref_guard	framework/io/GDAL_help.cpp	/^                ~GDAL_blockref_guard()$/;"	f	class:io::GDAL::GDAL_blockref_guard
+~GDAL_file_list	framework/io/GDALRasterDataSource.cpp	/^            ~GDAL_file_list()$/;"	f	class:io::GDAL_file_list
+~InsertCulvertAlgorithm	carving/InsertCulvertAlgorithm.cpp	/^InsertCulvertAlgorithm::~InsertCulvertAlgorithm()$/;"	f	class:InsertCulvertAlgorithm
+~LogIndent	utils/logging.cpp	/^    LogIndent::~LogIndent()$/;"	f	class:logging::LogIndent
+~LogWriter	utils/logging.cpp	/^    LogWriter::~LogWriter()$/;"	f	class:logging::LogWriter
+~RasterDataSource	framework/io/RasterDataSource.cpp	/^    RasterDataSource::~RasterDataSource()$/;"	f	class:io::RasterDataSource
+~SignalError	framework/errors.cpp	/^    SignalError::~SignalError()$/;"	f	class:errors::SignalError
+~Timer	utils/Timer.cpp	/^Timer::~Timer()$/;"	f	class:Timer
+~TimerController	utils/TimerTree.cpp	/^TimerController::~TimerController()$/;"	f	class:TimerController
+~TimerTree	utils/TimerTree.cpp	/^TimerTree::~TimerTree() {}$/;"	f	class:TimerTree
+~dataset_ptr	framework/io/GDAL_dataset_ptr.cpp	/^        dataset_ptr::~dataset_ptr()$/;"	f	class:io::GDAL::dataset_ptr

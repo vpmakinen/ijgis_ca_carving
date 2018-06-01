@@ -1,0 +1,3 @@
+add_library(FlowAccumulationAlgorithm INTERFACE)
+target_link_libraries(FlowAccumulationAlgorithm INTERFACE
+    AbstractAlgorithm CellGrid)
