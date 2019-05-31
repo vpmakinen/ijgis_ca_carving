@@ -22,11 +22,9 @@ Mäkinen, V., Oksanen, J. and T. Sarjakoski (submitted). Automatic determination
 Dependencies
 ------------
 
-CMake (https://cmake.org)
-
-Boost (https://www.boost.org)
-
-GDAL (http://www.gdal.org)
+- CMake (https://cmake.org)
+- Boost (https://www.boost.org)
+- GDAL (http://www.gdal.org)
 
 Tested on the following environments:
 
@@ -35,13 +33,13 @@ Tested on the following environments:
 Installation
 ------------
 
-cd *root directory of the project*
-
+```
+cd $root_directory_of_the_project
 mkdir build
-
 cd build
-
 cmake ..
+make
+```
 
 Sample data
 -----------
