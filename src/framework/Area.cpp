@@ -12,6 +12,7 @@
 #include "Area.h"
 
 #include <iomanip>
+#include <limits>
 #include <sstream>
 
 namespace geo {
