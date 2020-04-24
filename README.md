@@ -13,11 +13,11 @@ Determining stream networks automatically from digital elevation models is an is
 
 This study builds on the traditional, well-established method of determining the stream network from digital elevation models. We have extended the traditional method by locating culverts automatically, using road network data as an input. We demonstrate that by including the automatically located culverts in the automatic stream network determination, the quality of the network can be noticeably improved.
 
-Keywords: xxx
+Keywords: Hydrologic analysis, digital elevation or terrain models, algorithm development
 
 Citation
 --------
-Mäkinen, V., Oksanen, J. and T. Sarjakoski (submitted). Automatic determination of stream networks from DEMs by using road network data to locate culverts. DOI:xxx
+Mäkinen, V., Oksanen, J. and T. Sarjakoski. Automatic determination of stream networks from DEMs by using road network data to locate culverts. DOI: https://doi.org/10.1080/13658816.2018.1530353
 
 Dependencies
 ------------
